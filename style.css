@@ -29,7 +29,6 @@ body{
   .nav-list li a{
     color: grey;
     text-decoration: none;
-    
   }
 
   .nav-list li a:hover{
@@ -43,16 +42,6 @@ body{
   .nav-list li a.selected{
     color: pink;
   }
-
-  /*.name {
-    display: flex;
-    float: left;
-    width: 30%;
-    flex-direction: column;
-    align-items: center;
-    border-right: 1px solid rgb(220, 217, 217);
-    height: 400px;
-  }*/
 
   .section{
     padding-bottom: 30px;
@@ -79,19 +68,6 @@ body{
     align-self: stretch;
     margin-right: 30px;
   }
-
-  /*.section__item--left img {
-    border-radius: 50%;
-    height: auto;
-    max-height: 50%;
-    width: auto;
-    max-width: 70%;
-    align-items: center;
-    margin-top: 20px;
-    box-shadow: 10px 10px 5px #ccc;
-    min-width: 10%;
-    position: relative;
-    }*/
   
   .section__item--left h1{
     align-items: center;
@@ -120,18 +96,6 @@ body{
     border-radius: 50%;
     box-shadow: 10px 10px 5px #ccc;
   }
-
-  /*.description {
-    display: flex;
-    flex-direction: column;
-    align-items: left;
-    margin-left: 500px;
-  }
-
-  .description h1{
-    color: grey;
-    font-weight: 500;
-  }*/
 
   .skills {
     display: flex;
@@ -184,14 +148,9 @@ body{
     font-size: small;
   }
   
-  /* Tablet Styles */
+  /* Desktop and Tablet Styles */
   @media screen and (max-width: 800px){
     .section{
       flex-direction: column;
     }
   }
-
-  /* Phone Styles */
-  /*@media screen and (max-width: 700px){
-    
-  }*/
